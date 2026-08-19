@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# Next.js / Vercel
+.next/
+out/
+.vercel/
+
+# tests and tooling
+coverage/
+*.tsbuildinfo
+
+# environment and secrets
+.env
+.env.*
+!.env.example
+
+# local Supabase
+supabase/.branches/
+supabase/.temp/
+
+# operating system and editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# logs
+*.log
+npm-debug.log*
